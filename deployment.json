@@ -3,6 +3,18 @@
   "source_repository": "https://github.com/ToniDonDoni/woodz_witch_fashion",
   "records": [
     {
+      "release": "release-candidate-gpt",
+      "public_path": "release-candidate-gpt/index.html",
+      "public_artifact_commit": "8df86b91b2b15db0e7f2456301f0736b41aefc74",
+      "publication_pr": "https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/5",
+      "source_commit": "441cf8e39532ede2da156b5f3ac2f65d1ef972d2",
+      "source_directory": "out/release-candidate-gpt",
+      "source_artifact": "site/release-candidate-gpt/index.html",
+      "build_command": "python out/release-candidate-gpt/build.py",
+      "artifact_git_blob": "c73149f2142f99a5cac7d9ef1fbbc9855849b250",
+      "source_recording": "Feature branch source and bundled page; review PR #10 before promoting"
+    },
+    {
       "release": "forest-audience",
       "public_path": "index.html",
       "public_artifact_commit": "f317769d79449ac4c39a5655c3fc07c8854f72ea",
