@@ -1,6 +1,6 @@
 # Woodz Witch Fashion — Public Preview
 
-[Open the live runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/) · [Infinite Single-Event Black Runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/infinite-single-event-rc/) · [Release Candidate GPT — Moonlight and Fog](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/) · [View the creature gallery](https://tonidondoni.github.io/woodz-witch-fashion-preview/studies/neon-creatures/) · [Release history and exact source revisions](changelog.md)
+[Open the live runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/) · [Infinite Single-Event Black Runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/infinite-single-event-rc/) · [Release Candidate GPT — Moonlight and Fog](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/) · [View the creature gallery](https://tonidondoni.github.io/woodz-witch-fashion-preview/studies/neon-creatures/) · [Living Acts](https://tonidondoni.github.io/woodz-witch-fashion-preview/living-acts/) · [Release history and exact source revisions](changelog.md)
 
 ## Source and publication
 
@@ -34,3 +34,9 @@ Source and implementation PR: [woodz_witch_fashion #10](https://github.com/ToniD
 [Open the new black-stage experiment](https://tonidondoni.github.io/woodz-witch-fashion-preview/infinite-single-event-rc/). The woman walks on black with exactly one transient procedural neon-chalk entity at a time and silent gaps between events. Events are generated from independently indexed seeds, not a fixed list of pre-rendered animations. The original root preview and previous release candidates remain unchanged.
 
 [Source and implementation PR #11](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/11) — folder `out/infinite-single-event/`, rebuildable standalone page at `site/infinite-single-event-rc/index.html`. The source PR's headless offline browser verification passed; real phone performance and artistic acceptance remain pending.
+
+## Living Acts — experimental candidate
+
+[Open the living acts runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/living-acts/). The forest is staged as a sequence of seeded acts: every act has its own length, announces itself with a title card, sets the weather of the woodland, and sends one signature set piece across the stage (a constellation stag, a lantern procession, a moth wake, a fairy ring, a leshy choir, a wisp fountain, a moonflower). Rare unannounced cameos add a star fall and an owl. A fourth, faster foreground row is drawn after the walker, so foreground vegetation really passes in front of her sneakers, and `NEW DREAM` reshuffles the act programme, the woodland layout and the colour mood instead of redrawing the same world.
+
+Source and implementation PR: [woodz_witch_fashion #12](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/12) — folder `out/runway-acts/`, rebuildable standalone page at `out/runway-acts/index.html`. The original root preview and the other candidates remain unchanged. Headless offline verification passed in the source PR; real phone performance and artistic acceptance remain pending.

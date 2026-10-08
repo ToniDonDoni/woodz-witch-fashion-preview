@@ -43,6 +43,19 @@
       "source_commit": "7a8f357bd8974a8a3ae260f065a41b7ad6cacad4",
       "source_directory": "out/enchanted-forest",
       "build_command": "python out/enchanted-forest/build.py"
+    },
+    {
+      "release": "living-acts",
+      "public_path": "living-acts/index.html",
+      "public_artifact_commit": "PENDING",
+      "publication_pr": "PENDING",
+      "source_commit": "70ad1ad1550f57faaaef8ce4432cc01a62b4903d",
+      "source_directory": "out/runway-acts",
+      "source_artifact": "out/runway-acts/index.html",
+      "build_command": "python out/runway-acts/build.py",
+      "artifact_git_blob": "fc36d41c0f7c0d696b5e0d1964b8583c30c1c993",
+      "artifact_sha256": "355e04ab7629f97fe32b6d9377137bab34242d30a02e1ef0c7d88ecc5ee6ab4c",
+      "source_recording": "Candidate branch source and bundled page; review source PR #12 before promoting"
     }
   ]
 }
