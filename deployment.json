@@ -56,6 +56,19 @@
       "artifact_git_blob": "fc36d41c0f7c0d696b5e0d1964b8583c30c1c993",
       "artifact_sha256": "355e04ab7629f97fe32b6d9377137bab34242d30a02e1ef0c7d88ecc5ee6ab4c",
       "source_recording": "Candidate branch source and bundled page; review source PR #12 before promoting"
+    },
+    {
+      "release": "scenes-in-the-wood",
+      "public_path": "scenes/index.html",
+      "public_artifact_commit": "PENDING",
+      "publication_pr": "PENDING",
+      "source_commit": "40b3d5a24906eafbd0f0d98a457b79e635913b97",
+      "source_directory": "out/runway-scenes",
+      "source_artifact": "out/runway-scenes/index.html",
+      "build_command": "python out/runway-scenes/build.py",
+      "artifact_git_blob": "4aab143411d3ebcdbec6e0abd40a16f3752f78bf",
+      "artifact_sha256": "9c63c99a9baaa89935e8ba1dd0ce117b386b0b3cb11a271795944784b1040fed",
+      "source_recording": "Candidate branch source and bundled page; stacked on source PR #12"
     }
   ]
 }
