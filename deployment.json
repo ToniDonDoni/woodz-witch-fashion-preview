@@ -66,9 +66,9 @@
       "source_directory": "out/runway-scenes",
       "source_artifact": "out/runway-scenes/index.html",
       "build_command": "python out/runway-scenes/build.py",
-      "artifact_git_blob": "4aab143411d3ebcdbec6e0abd40a16f3752f78bf",
-      "artifact_sha256": "9c63c99a9baaa89935e8ba1dd0ce117b386b0b3cb11a271795944784b1040fed",
-      "source_recording": "Candidate branch source and bundled page; stacked on source PR #12"
+      "artifact_git_blob": "6e85644901769dda1ae613d43cbf7749dc228897",
+      "artifact_sha256": "1ebef31b684f71b28989f2e142e79b3d2d363cfac9083d73b61fc602fc7ea07f",
+      "source_recording": "Correction revision 8f3d263: occupancy measured inside the viewport, rising-beat drift capped. Supersedes the first scenes publication."
     }
   ]
 }
