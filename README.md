@@ -1,6 +1,6 @@
 # Woodz Witch Fashion — Public Preview
 
-[Open the live runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/) · [View the creature gallery](https://tonidondoni.github.io/woodz-witch-fashion-preview/studies/neon-creatures/) · [Release history and exact source revisions](changelog.md)
+[Open the live runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/) · [Release Candidate GPT — Moonlight and Fog](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/) · [View the creature gallery](https://tonidondoni.github.io/woodz-witch-fashion-preview/studies/neon-creatures/) · [Release history and exact source revisions](changelog.md)
 
 ## Source and publication
 
@@ -22,3 +22,9 @@ The existing walk-loop seam is unchanged; physical-phone performance has not bee
 ## Future releases
 
 Before publishing a new page, save its editable sources and exact deliverable in the private repository. Update `changelog.md` and `deployment.json` with an immutable source commit, artifact path and publication commit or PR. Use commit links rather than moving branch links. If several pages come from different revisions, record each separately.
+
+## Release Candidate GPT (separate preview)
+
+A self-contained experimental variant at [`release-candidate-gpt/`](release-candidate-gpt/), with the current forest spectators plus the moon and stars from the source project, restrained procedural moonbeams and a drifting fog band. It features a LIGHT ON/OFF switch for visual A/B testing. The original root runway remains untouched. Physical phone performance testing and art direction review are pending; do not consider the release candidate production-accepted.
+
+Source and implementation PR: [woodz_witch_fashion #10](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/10). The builder and renderer sources are in `out/release-candidate-gpt/` on that branch.
