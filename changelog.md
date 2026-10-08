@@ -2,6 +2,17 @@
 
 Each entry links a public preview to its exact source revision in the private [woodz_witch_fashion](https://github.com/ToniDonDoni/woodz_witch_fashion) project. Access to private links requires repository permission. Source snapshots for the gallery and audience runway were archived after publication from the exact local source files; they are not retrospective claims of a commit-driven build pipeline.
 
+## Release Candidate GPT — moonlight and fog
+
+- **Preview:** [Release Candidate GPT](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/).
+- **Public candidate PR:** [#5](https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/5), artifact commit [`8df86b9`](https://github.com/ToniDonDoni/woodz-witch-fashion-preview/commit/8df86b91b2b15db0e7f2456301f0736b41aefc74).
+- **Primary source PR:** [#10](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/10), source revision [`441cf8e`](https://github.com/ToniDonDoni/woodz_witch_fashion/commit/441cf8e39532ede2da156b5f3ac2f65d1ef972d2).
+- **Editable sources:** `out/release-candidate-gpt/` and built `site/release-candidate-gpt/index.html` in that source revision.
+- **Artifact Git blob:** `c73149f2142f99a5cac7d9ef1fbbc9855849b250` (identical in both repositories).
+- **Build:** `python out/release-candidate-gpt/build.py`; combines the 33 unchanged source sprites, published spectators, current moonlit sky, and the added Canvas 2D atmosphere.
+- **Effects:** stable tree-ID canopy-linked silver moonbeams, one smooth scrolling, precomputed periodic-noise fog band, and a LIGHT ON/OFF comparison switch. The existing public root runway is unchanged.
+- **Verification:** JavaScript compiled and exercised with browser-API stubs (initialization, seek determinism, toggle identities, bounded caches). A real offline browser CI run is linked from primary PR #10. Phone performance acceptance and final visual review remain pending.
+
 ## Forest audience — current runway
 
 - **Preview:** [The forest is watching](https://tonidondoni.github.io/woodz-witch-fashion-preview/).
