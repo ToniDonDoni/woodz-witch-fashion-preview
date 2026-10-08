@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/ToniDonDoni/woodz_witch_fashion",
+  "records": [
+    {
+      "release": "forest-audience",
+      "public_path": "index.html",
+      "public_artifact_commit": "f317769d79449ac4c39a5655c3fc07c8854f72ea",
+      "source_commit": "0e6cf29d4059e305a975a77fade10cb3f7a1ecb2",
+      "source_directory": "out/forest-spectators",
+      "source_artifact": "out/forest-spectators/index.html",
+      "build_command": "python out/forest-spectators/build.py",
+      "artifact_git_blob": "434db5a823e39df15507a87c90a73a3924c36c32",
+      "artifact_sha256": "1a2090d89cb067af41536710b3b5242b85842e34c00d060be91842150fedf7cc",
+      "source_recording": "Exact source snapshot archived after publication"
+    },
+    {
+      "release": "neon-creature-studies",
+      "public_path": "studies/neon-creatures/index.html",
+      "public_artifact_commit": "fb67ea78f32ef373b688048eb167619754c2608b",
+      "source_commit": "0e6cf29d4059e305a975a77fade10cb3f7a1ecb2",
+      "source_directory": "out/neon-creature-studies",
+      "source_artifact": "out/neon-creature-studies/index.html",
+      "artifact_git_blob": "6ef22245e880482ca920bb868386cbc315839abe",
+      "source_recording": "Exact source snapshot archived after publication"
+    },
+    {
+      "release": "enchanted-forest",
+      "public_path": "index.html",
+      "public_artifact_commit": "94293f2524c78d5ee08b9eff15d3d7f4c8aa1ffd",
+      "source_commit": "7a8f357bd8974a8a3ae260f065a41b7ad6cacad4",
+      "source_directory": "out/enchanted-forest",
+      "build_command": "python out/enchanted-forest/build.py"
+    }
+  ]
+}
