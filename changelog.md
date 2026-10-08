@@ -15,6 +15,19 @@ Each entry links a public preview to its exact source revision in the private [w
 - **Verification:** offline headless Chromium at four viewport sizes with no runtime errors and no network requests; every act theme and signature event reaches the stage over 40 acts; act starts are contiguous and act lengths vary; deterministic rendering of identical simulated times; bounded caches and object counts over ten sampled minutes plus a one-hour seek; pixel differencing proves the foreground row changes the walker's legs by 34.6 grey levels and nothing above them; the embedded walk frames are byte-identical to the previous build.
 - **Limitations:** the inherited 32-to-0 gait seam is unchanged; physical-phone performance is unmeasured.
 
+## Scenes in the wood — experimental candidate
+
+- **Preview:** [Into the woods, staged as small scenes](https://tonidondoni.github.io/woodz-witch-fashion-preview/scenes/).
+- **Public path:** `scenes/index.html`.
+- **Primary source PR:** [#13](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/13), source revision [`40b3d5a`](https://github.com/ToniDonDoni/woodz_witch_fashion/commit/40b3d5a24906eafbd0f0d98a457b79e635913b97).
+- **Editable sources:** `out/runway-scenes/` and the built `out/runway-scenes/index.html` at that revision.
+- **Build:** `python out/runway-scenes/build.py` with Pillow, using the 33 PNG frames in `assets/walk/`.
+- **Published HTML Git blob:** `4aab143411d3ebcdbec6e0abd40a16f3752f78bf`.
+- **Published HTML SHA-256:** `9c63c99a9baaa89935e8ba1dd0ce117b386b0b3cb11a271795944784b1040fed`.
+- **Changes:** acts rebuilt from three overlapping beats that tile the act (one headline piece plus two quieter supports, all distinct), five arrival modes instead of one (left, mirrored right, hold, rise, swoop) with both horizontal directions used across the programme, and a title card that stays with its act. Stage occupancy measured by rendering six acts second by second rose from 16% (worst 11%) to 96-100% (mean 98%). Everything from `living-acts` is kept.
+- **Verification:** offline headless Chromium at four viewport sizes with no runtime errors and no network requests; per-act beat invariants and window coverage over 40 programmed acts; measured occupancy per act; trajectory direction per arrival mode; the title card readable at mid-act; inherited determinism, identity, bounded-cache, foreground-occlusion and byte-identical walk-frame checks.
+- **Limitations:** the inherited 32-to-0 gait seam is unchanged; physical-phone performance is unmeasured.
+
 ## Release Candidate GPT — moonlight and fog
 
 - **Preview:** [Release Candidate GPT](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/).
