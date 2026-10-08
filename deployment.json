@@ -47,8 +47,8 @@
     {
       "release": "living-acts",
       "public_path": "living-acts/index.html",
-      "public_artifact_commit": "PENDING",
-      "publication_pr": "PENDING",
+      "public_artifact_commit": "0ecfa75f6b4c6c88e9f7b2e0546addcedeffcd46",
+      "publication_pr": "https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/7",
       "source_commit": "70ad1ad1550f57faaaef8ce4432cc01a62b4903d",
       "source_directory": "out/runway-acts",
       "source_artifact": "out/runway-acts/index.html",
