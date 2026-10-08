@@ -2,6 +2,19 @@
 
 Each entry links a public preview to its exact source revision in the private [woodz_witch_fashion](https://github.com/ToniDonDoni/woodz_witch_fashion) project. Access to private links requires repository permission. Source snapshots for the gallery and audience runway were archived after publication from the exact local source files; they are not retrospective claims of a commit-driven build pipeline.
 
+## Living acts — experimental candidate
+
+- **Preview:** [Into the woods, staged in acts](https://tonidondoni.github.io/woodz-witch-fashion-preview/living-acts/).
+- **Public path:** `living-acts/index.html`.
+- **Primary source PR:** [#12](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/12), source revision [`70ad1ad`](https://github.com/ToniDonDoni/woodz_witch_fashion/commit/70ad1ad1550f57faaaef8ce4432cc01a62b4903d).
+- **Editable sources:** `out/runway-acts/` and the built `out/runway-acts/index.html` at that revision.
+- **Build:** `python out/runway-acts/build.py` with Pillow, using the 33 PNG frames in `assets/walk/`.
+- **Published HTML Git blob:** `fc36d41c0f7c0d696b5e0d1964b8583c30c1c993`.
+- **Published HTML SHA-256:** `355e04ab7629f97fe32b6d9377137bab34242d30a02e1ef0c7d88ecc5ee6ab4c`.
+- **Changes:** seeded act director with per-act lengths (30-62 s), title cards, per-act weather, seven signature set pieces and two rare cameos; a per-dream colour grade that leaves the walker's own colours untouched; a faster foreground row composited after the walker so it occludes her sneakers; seed-derived woodland layout so `NEW DREAM` reshuffles the world.
+- **Verification:** offline headless Chromium at four viewport sizes with no runtime errors and no network requests; every act theme and signature event reaches the stage over 40 acts; act starts are contiguous and act lengths vary; deterministic rendering of identical simulated times; bounded caches and object counts over ten sampled minutes plus a one-hour seek; pixel differencing proves the foreground row changes the walker's legs by 34.6 grey levels and nothing above them; the embedded walk frames are byte-identical to the previous build.
+- **Limitations:** the inherited 32-to-0 gait seam is unchanged; physical-phone performance is unmeasured.
+
 ## Release Candidate GPT — moonlight and fog
 
 - **Preview:** [Release Candidate GPT](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/).
