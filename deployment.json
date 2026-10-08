@@ -60,8 +60,8 @@
     {
       "release": "scenes-in-the-wood",
       "public_path": "scenes/index.html",
-      "public_artifact_commit": "PENDING",
-      "publication_pr": "PENDING",
+      "public_artifact_commit": "93873eb2e0788ce97559279853886d22f16db91e",
+      "publication_pr": "https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/9",
       "source_commit": "40b3d5a24906eafbd0f0d98a457b79e635913b97",
       "source_directory": "out/runway-scenes",
       "source_artifact": "out/runway-scenes/index.html",
