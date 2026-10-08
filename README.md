@@ -1,6 +1,6 @@
 # Woodz Witch Fashion — Public Preview
 
-[Open the live runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/) · [Release Candidate GPT — Moonlight and Fog](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/) · [View the creature gallery](https://tonidondoni.github.io/woodz-witch-fashion-preview/studies/neon-creatures/) · [Release history and exact source revisions](changelog.md)
+[Open the live runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/) · [Infinite Single-Event Black Runway](https://tonidondoni.github.io/woodz-witch-fashion-preview/infinite-single-event-rc/) · [Release Candidate GPT — Moonlight and Fog](https://tonidondoni.github.io/woodz-witch-fashion-preview/release-candidate-gpt/) · [View the creature gallery](https://tonidondoni.github.io/woodz-witch-fashion-preview/studies/neon-creatures/) · [Release history and exact source revisions](changelog.md)
 
 ## Source and publication
 
@@ -28,3 +28,9 @@ Before publishing a new page, save its editable sources and exact deliverable in
 A self-contained experimental variant at [`release-candidate-gpt/`](release-candidate-gpt/), with the current forest spectators plus the moon and stars from the source project, restrained procedural moonbeams and a drifting fog band. It features a LIGHT ON/OFF switch for visual A/B testing. The original root runway remains untouched. Physical phone performance testing and art direction review are pending; do not consider the release candidate production-accepted.
 
 Source and implementation PR: [woodz_witch_fashion #10](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/10). The builder and renderer sources are in `out/release-candidate-gpt/` on that branch.
+
+## Infinite Single-Event Black Runway — Experimental candidate
+
+[Open the new black-stage experiment](https://tonidondoni.github.io/woodz-witch-fashion-preview/infinite-single-event-rc/). The woman walks on black with exactly one transient procedural neon-chalk entity at a time and silent gaps between events. Events are generated from independently indexed seeds, not a fixed list of pre-rendered animations. The original root preview and previous release candidates remain unchanged.
+
+[Source and implementation PR #11](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/11) — folder `out/infinite-single-event/`, rebuildable standalone page at `site/infinite-single-event-rc/index.html`. The source PR's headless offline browser verification passed; real phone performance and artistic acceptance remain pending.
