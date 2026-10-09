@@ -50,3 +50,14 @@ Source and implementation PR: [woodz_witch_fashion #13](https://github.com/ToniD
 ## Living Paint V2 — experimental WebGL2 creatures
 
 [Living Paint V2 — procedural color encounters](https://tonidondoni.github.io/woodz-witch-fashion-preview/living-paint-v2/) is a separate black-stage fashion runway with the original walking woman and one morphologically generated, moving, multicolored organism at a time. The shader uses noise-warped pigment, soft neon glows, and fluid appendages. More variety comes from combinatorial anatomy and behavior rather than fixed species frames. Existing previews remain unchanged. [Source implementation and review PR](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/14).
+
+## Forest Couture buyers — cached row (separate experiment)
+
+[Open optimized version](https://tonidondoni.github.io/woodz-witch-fashion-preview/forest-couture-buyers/) · [Compare original unoptimized version](https://tonidondoni.github.io/woodz-witch-fashion-preview/forest-couture-buyers-original/)
+
+- **Original graphics:** [source PR #16](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/16).
+- **Previous public release:** [publication PR #13](https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/13).
+- **Optimized graphics and CPU profiling:** [source PR #17](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/17), independent branch from main, in `out/forest-couture-perf/`.
+- The original audience drawing code and unchanged 33-frame original walker remain. The 9–11 buyers now render to the background canvas only when the scene is initialized, resized or the cast is changed; subsequent frames draw only the walking woman. The tiny previous seated-buyer vertical bob is intentionally frozen.
+- Offline Chromium checks verify that the image at time zero matches the original pixel-for-pixel, and that no audience repaint occurs during 120 later frames. See the source PR's CI report for frame-budget measurements. Physical-phone FPS has not been measured.
+- The original standalone page is kept at `forest-couture-buyers-original/index.html` so the performance change can be compared visually and the preceding release remains accessible.
