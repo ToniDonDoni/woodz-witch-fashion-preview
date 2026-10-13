@@ -75,3 +75,18 @@ Each entry links a public preview to its exact source revision in the private [w
 ## Earlier butterfly-only preview
 
 [Public artifact commit `5e39c1d`](https://github.com/ToniDonDoni/woodz-witch-fashion-preview/commit/5e39c1d43c005eebe10fefded153ac0593e0af9f) predates these release records. An exact source-to-artifact mapping has not been verified here; no source revision is asserted for it.
+
+## Nocturne Creatures GPT — endless stochastic encounters
+
+- **Preview:** [Nocturne](https://tonidondoni.github.io/woodz-witch-fashion-preview/nocturne-creatures-gpt/).
+- **Public path:** `nocturne-creatures-gpt/index.html`.
+- **Source PR:** [#18](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/18).
+- **Immutable source revision:** [1a6cf25](https://github.com/ToniDonDoni/woodz_witch_fashion/commit/1a6cf2525ed5ea96f78c76f12967f1800f8248b1).
+- **Editable source:** `out/hyperframes-creature-theatre/`.
+- **Source artifact:** `site/nocturne-creatures-gpt/index.html`.
+- **Build:** `npm ci` and `npm run build` from the attempt directory.
+- **HTML Git blob:** `af3903e2156648a33cd145f8efb09cb007f2f9dd`.
+- **HTML SHA-256:** `c20c78548c19827eb5b408629edb226cfbd8c51f214bd0fd103cc959e1a69903`.
+- **Changes:** original 33-frame woman on pure black; one code-built visitor at a time; twelve anatomy archetypes, eight palettes, independent ornaments and broad seeded proportions; endless runtime playback. HyperFrames is inspiration only.
+- **Verification:** unchanged original atlas, offline Chromium, 300 distinct identities, reverse-seek pixel equality, bounded resources through a ten-hour seek, four viewports, and forty seconds of actual HTTP playback with all controls.
+- **Limitations:** original gait seam remains; physical-phone performance unmeasured.

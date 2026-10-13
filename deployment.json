@@ -69,6 +69,20 @@
       "artifact_git_blob": "6e85644901769dda1ae613d43cbf7749dc228897",
       "artifact_sha256": "1ebef31b684f71b28989f2e142e79b3d2d363cfac9083d73b61fc602fc7ea07f",
       "source_recording": "Correction revision 8f3d263: occupancy measured inside the viewport, rising-beat drift capped. Supersedes the first scenes publication."
+    },
+    {
+      "release": "nocturne-creatures-gpt",
+      "public_path": "nocturne-creatures-gpt/index.html",
+      "preview_url": "https://tonidondoni.github.io/woodz-witch-fashion-preview/nocturne-creatures-gpt/",
+      "source_commit": "1a6cf2525ed5ea96f78c76f12967f1800f8248b1",
+      "source_pr": "https://github.com/ToniDonDoni/woodz_witch_fashion/pull/18",
+      "source_directory": "out/hyperframes-creature-theatre",
+      "source_artifact": "site/nocturne-creatures-gpt/index.html",
+      "build_command": "npm ci && npm run build",
+      "build_working_directory": "out/hyperframes-creature-theatre",
+      "artifact_git_blob": "af3903e2156648a33cd145f8efb09cb007f2f9dd",
+      "artifact_sha256": "c20c78548c19827eb5b408629edb226cfbd8c51f214bd0fd103cc959e1a69903",
+      "source_recording": "Immutable source branch and exact bundled HTML; separate publication preserves all existing paths"
     }
   ]
 }
