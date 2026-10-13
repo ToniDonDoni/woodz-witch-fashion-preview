@@ -61,3 +61,9 @@ Source and implementation PR: [woodz_witch_fashion #13](https://github.com/ToniD
 - The original audience drawing code and unchanged 33-frame original walker remain. The 9–11 buyers now render to the background canvas only when the scene is initialized, resized or the cast is changed; subsequent frames draw only the walking woman. The tiny previous seated-buyer vertical bob is intentionally frozen.
 - Offline Chromium checks verify that the image at time zero matches the original pixel-for-pixel, and that no audience repaint occurs during 120 later frames. See the source PR's CI report for frame-budget measurements. Physical-phone FPS has not been measured.
 - The original standalone page is kept at `forest-couture-buyers-original/index.html` so the performance change can be compared visually and the preceding release remains accessible.
+
+## Nocturne Creatures GPT — endless black runway
+
+[Open Nocturne](https://tonidondoni.github.io/woodz-witch-fashion-preview/nocturne-creatures-gpt/). The original woman walks continuously on pure black while one procedural creature approaches, reacts and departs at a time. Twelve anatomy archetypes, eight contrasting palettes, broad proportions and independently selected appendages create stochastic combinations. A fresh seed is chosen on opening. The standalone page embeds all 33 original sprites and Three.js and requires no runtime asset requests.
+
+Source [PR #18](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/18), immutable revision [1a6cf25](https://github.com/ToniDonDoni/woodz_witch_fashion/commit/1a6cf2525ed5ea96f78c76f12967f1800f8248b1); editable source in `out/hyperframes-creature-theatre/`, release in `site/nocturne-creatures-gpt/index.html`. Offline and exact-URL continuous-playback checks passed; physical-phone testing is pending.
