@@ -78,6 +78,8 @@ Each entry links a public preview to its exact source revision in the private [w
 
 ## Nocturne Creatures GPT — endless stochastic encounters
 
+- **Publication PR:** [#15](https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/15).
+
 - **Preview:** [Nocturne](https://tonidondoni.github.io/woodz-witch-fashion-preview/nocturne-creatures-gpt/).
 - **Public path:** `nocturne-creatures-gpt/index.html`.
 - **Source PR:** [#18](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/18).

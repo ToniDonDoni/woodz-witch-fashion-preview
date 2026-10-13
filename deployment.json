@@ -82,7 +82,8 @@
       "build_working_directory": "out/hyperframes-creature-theatre",
       "artifact_git_blob": "af3903e2156648a33cd145f8efb09cb007f2f9dd",
       "artifact_sha256": "c20c78548c19827eb5b408629edb226cfbd8c51f214bd0fd103cc959e1a69903",
-      "source_recording": "Immutable source branch and exact bundled HTML; separate publication preserves all existing paths"
+      "source_recording": "Immutable source branch and exact bundled HTML; separate publication preserves all existing paths",
+      "publication_pr": "https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/15"
     }
   ]
 }
