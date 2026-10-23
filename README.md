@@ -67,3 +67,8 @@ Source and implementation PR: [woodz_witch_fashion #13](https://github.com/ToniD
 [Open Nocturne](https://tonidondoni.github.io/woodz-witch-fashion-preview/nocturne-creatures-gpt/). The original woman walks continuously on pure black while one procedural creature approaches, reacts and departs at a time. Twelve anatomy archetypes, eight contrasting palettes, broad proportions and independently selected appendages create stochastic combinations. A fresh seed is chosen on opening. The standalone page embeds all 33 original sprites and Three.js and requires no runtime asset requests.
 
 Source [PR #18](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/18), immutable revision [1a6cf25](https://github.com/ToniDonDoni/woodz_witch_fashion/commit/1a6cf2525ed5ea96f78c76f12967f1800f8248b1); editable source in `out/hyperframes-creature-theatre/`, release in `site/nocturne-creatures-gpt/index.html`. Offline and exact-URL continuous-playback checks passed; physical-phone testing is pending.
+
+
+## Three FX runway — mobile compatibility preview
+
+[Open Liquid Glass, Spectral Smoke and Pixel Dissolve](https://tonidondoni.github.io/woodz-witch-fashion-preview/teknium-three-fx/). This separate experiment preserves the original 33 walking frames. The October 23, 2026 mobile rendering fix splits the tall sprite atlas into GPU-safe tiles and uses a Canvas2D creature fallback for coarse-pointer phones; desktops still use the three original WebGL2 shaders. Source [original PR #22](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/22), [fix PR #23](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/23). Physical Android device verification is still pending.
