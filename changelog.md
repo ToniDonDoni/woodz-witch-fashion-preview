@@ -2,6 +2,15 @@
 
 Each entry links a public preview to its exact source revision in the private [woodz_witch_fashion](https://github.com/ToniDonDoni/woodz_witch_fashion) project. Access to private links requires repository permission. Source snapshots for the gallery and audience runway were archived after publication from the exact local source files; they are not retrospective claims of a commit-driven build pipeline.
 
+## Three FX runway — mobile compatibility revision (October 23, 2026)
+
+- **Preview:** [Three effects from the dark](https://tonidondoni.github.io/woodz-witch-fashion-preview/teknium-three-fx/).
+- **Public path:** `teknium-three-fx/index.html`, kept separate from the stable forest root.
+- **Primary source:** [PR #22](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/22); targeted fix [PR #23](https://github.com/ToniDonDoni/woodz_witch_fashion/pull/23), commit [9ee583d](https://github.com/ToniDonDoni/woodz_witch_fashion/commit/9ee583de80beac82cac2571753d06eacc5d6ed71).
+- **Editable source:** `out/teknium-three-fx/`; exact HTML in `site/teknium-three-fx/index.html`, blob `025e1a087a07e682f8f417341c1c718a3a9c52c8`.
+- **Change:** crop the original tall 2520x4740 walker atlas into two 2520x2370 GPU-safe textures; select Canvas2D apparition silhouettes on coarse-pointer mobile screens instead of compiling expensive WebGL2 shaders synchronously; show a visible missing-frame warning if the atlas cannot load.
+- **Verification:** CI includes desktop WebGL2 shader-pixel checks and a touch-mobile emulation test measuring visible walker and apparition pixels. Hardware phone testing remains pending.
+
 ## Living acts — experimental candidate
 
 - **Preview:** [Into the woods, staged in acts](https://tonidondoni.github.io/woodz-witch-fashion-preview/living-acts/).
