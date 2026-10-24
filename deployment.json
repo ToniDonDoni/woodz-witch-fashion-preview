@@ -84,19 +84,6 @@
       "artifact_sha256": "c20c78548c19827eb5b408629edb226cfbd8c51f214bd0fd103cc959e1a69903",
       "source_recording": "Immutable source branch and exact bundled HTML; separate publication preserves all existing paths",
       "publication_pr": "https://github.com/ToniDonDoni/woodz-witch-fashion-preview/pull/15"
-    },
-    {
-      "release": "teknium-three-fx-mobile-fix",
-      "public_path": "teknium-three-fx/index.html",
-      "preview_url": "https://tonidondoni.github.io/woodz-witch-fashion-preview/teknium-three-fx/",
-      "source_commit": "9ee583de80beac82cac2571753d06eacc5d6ed71",
-      "source_pr": "https://github.com/ToniDonDoni/woodz_witch_fashion/pull/23",
-      "source_parent_pr": "https://github.com/ToniDonDoni/woodz_witch_fashion/pull/22",
-      "source_directory": "out/teknium-three-fx",
-      "source_artifact": "site/teknium-three-fx/index.html",
-      "build_command": "python out/teknium-three-fx/build.py",
-      "artifact_git_blob": "025e1a087a07e682f8f417341c1c718a3a9c52c8",
-      "source_recording": "GPU-safe cropped walker atlas textures, touch-device Canvas2D effect fallback; real physical phone unverified"
     }
   ]
 }
